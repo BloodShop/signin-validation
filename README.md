@@ -1,1 +1,1 @@
-https://bloodshop.github.io/icecream-validation/signin-validation/
+https://bloodshop.github.io/signin-validation/
