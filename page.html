@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shopping Checkout</title>
+  <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+</div>
+  <form>
+    <div> <!-- FullName -->
+      <label>
+        Full Name
+        <input type="text" name="full-name" required placeholder="Full Name">
+      </label>
+    </div> <!-- End FullName -->
+
+    <div> <!-- Price -->
+      <label>
+        Price
+        <input type="number" step="0.0001" name="purchase-price" min="1" required placeholder="Purchase Price"
+           title="number has to be above 0">
+      </label>
+    </div> <!-- End Price -->
+
+    <div> <!-- Charge checkbox -->
+      <label>
+        Charge to tab
+        <input type="checkbox" name="charge-checkbox">
+      </label>
+    </div> <!-- End Charge checkbox -->
+
+    <div> <!-- Credit Type -->
+      <label class="box">
+        Credit Type:
+        <select class="options" name="credit-type" required>
+          <option value=''></option>
+          <option value="visa">Visa</option>
+          <option value="master-card">Master Card</option>
+          <option value="american-express">American Express</option>
+          <option value="crypto">Crypto</option>
+        </select>
+      </label>
+    </div> <!-- End Credit Type -->
+
+    <div> <!-- Submit -->
+      <input type="submit" value="LogIn">
+    </div>
+  </form>
+</body>
+</html>
